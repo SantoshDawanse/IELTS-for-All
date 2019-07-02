@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "793939312289",
+    "firebase_url": "https://ieltsforall-dfa0e.firebaseio.com",
+    "project_id": "ieltsforall-dfa0e",
+    "storage_bucket": "ieltsforall-dfa0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793939312289:android:0f247fb755d10cee",
+        "android_client_info": {
+          "package_name": "com.dawanse.ieltsforall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793939312289-afo2fbqtaph9gokj2up6acb9f54fhhv6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dawanse.ieltsforall",
+            "certificate_hash": "0648dea7f4acaf3aa2438c6e344071ca08de1ff3"
+          }
+        },
+        {
+          "client_id": "793939312289-a3nv0l69rcerbi56p4p1o3509jiif6qh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB-KRS_Pw8ro8rYL0dMkWzWLhpUgZw2kY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793939312289-a3nv0l69rcerbi56p4p1o3509jiif6qh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

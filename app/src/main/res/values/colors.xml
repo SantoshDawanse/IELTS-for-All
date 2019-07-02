@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F54B64</color>
+    <color name="colorSecondary">#F78361</color>
+    <color name="colorPrimaryDark">#FA2D4B</color>
+    <color name="colorAccent">#4B586E</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorKapilF1">#ff6600</color>
+    <color name="colorKapilF2">#ffcc99</color>
+</resources>

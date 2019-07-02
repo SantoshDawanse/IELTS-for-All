@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:background="@color/colorWhite"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/signup_fullname_et"
+        android:layout_marginBottom="36dp"
+        android:text="@string/signin_signup"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/signup_fullname_et"
+        android:layout_above="@+id/signup_email_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bg_hollow_stroke_dark"
+        android:hint="@string/signup_hint_fullname"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColorHint="@color/colorSecondary"/>
+
+    <EditText
+        android:id="@+id/signup_email_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/signup_phone_et"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bg_hollow_stroke_dark"
+        android:hint="@string/signup_hint_email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textColorHint="@color/colorSecondary" />
+
+    <EditText
+        android:id="@+id/signup_phone_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/signup_password_text"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/bg_hollow_stroke_dark"
+        android:hint="@string/signup_hint_phone_no"
+        android:inputType="phone"
+        android:padding="12dp"
+        android:textColorHint="@color/colorSecondary" />
+
+    <TextView
+        android:id="@+id/signup_password_text"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:gravity="start"
+        android:layout_centerInParent="true"
+        android:text="@string/signup_password_rule_text"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/signup_password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup_password_text"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bg_hollow_stroke_dark"
+        android:hint="@string/signup_hint_pass"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textColorHint="@color/colorSecondary" />
+    <EditText
+        android:id="@+id/signup_confirm_password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup_password_et"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/bg_hollow_stroke_dark"
+        android:hint="@string/signup_hint_confirm_pass"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textColorHint="@color/colorSecondary" />
+
+    <Button
+        android:id="@+id/signin_signin_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup_confirm_password_et"
+        android:background="@drawable/bg_button_rounded"
+        android:text="@string/signup_create_account"
+        android:textColor="@color/colorWhite" />
+
+</RelativeLayout>

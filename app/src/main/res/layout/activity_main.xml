@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg_login"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo_only"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"/>
+
+
+
+    <TextView
+        android:id="@+id/login_welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="@string/welcome_text"
+        android:layout_above="@+id/login_login_text"
+        android:textSize="25sp"
+        android:textColor="@color/colorWhite"/>
+
+    <LinearLayout
+        android:id="@+id/login_login_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="12dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_pretext"
+            android:layout_marginEnd="4dp"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:id="@+id/login_signin_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:text="@string/login_signin_btn_text"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_fb_layout"
+        android:layout_below="@+id/login_login_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_facebook"
+        android:padding="12dp"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fb_icon"
+            android:layout_marginEnd="16dp"
+            android:clickable="false"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue With Facebook"
+            android:textColor="#3F51B5"
+            android:clickable="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_create_account_layout"
+        android:layout_below="@+id/login_fb_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="@drawable/bg_hollow_stroke"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textColor="@color/colorWhite"
+            android:clickable="false"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/login_privacy_text"
+        android:layout_below="@+id/login_create_account_layout"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/app_policy"
+        android:textColor="@color/colorWhite"/>
+
+
+</RelativeLayout>
