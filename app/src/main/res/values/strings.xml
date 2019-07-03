@@ -18,4 +18,9 @@
     <string name="signup_hint_pass">Password</string>
     <string name="signup_hint_confirm_pass">Confirm Password</string>
     <string name="signup_create_account">CREATE ACCOUNT</string>
+
+    //facebook
+    <string name="facebook_app_id">2331202717153013</string>
+    <string name="fb_login_protocol_scheme">fb2331202717153013</string>
+
 </resources>

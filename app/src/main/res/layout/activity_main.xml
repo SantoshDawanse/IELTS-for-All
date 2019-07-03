@@ -61,9 +61,7 @@
         android:orientation="horizontal"
         android:background="@drawable/bg_facebook"
         android:padding="12dp"
-        android:gravity="center"
-        android:clickable="true"
-        android:focusable="true">
+        android:gravity="center">
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -87,9 +85,7 @@
         android:padding="12dp"
         android:background="@drawable/bg_hollow_stroke"
         android:layout_marginTop="12dp"
-        android:gravity="center_horizontal"
-        android:clickable="true"
-        android:focusable="true">
+        android:gravity="center_horizontal">
 
         <TextView
             android:layout_width="wrap_content"

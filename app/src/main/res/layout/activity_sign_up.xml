@@ -89,7 +89,7 @@
         android:textColorHint="@color/colorSecondary" />
 
     <Button
-        android:id="@+id/signin_signin_btn"
+        android:id="@+id/signup_signup_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/signup_confirm_password_et"
