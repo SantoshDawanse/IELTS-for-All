@@ -39,8 +39,18 @@ public class SigninActivity extends AppCompatActivity implements View.OnClickLis
         _signupBtn = findViewById(R.id.signin_signup_tv);
         _forgetPassBtn = findViewById(R.id.signin_forget_pass_tv);
 
-        _signinBtn.setOnClickListener(this);
-        _signupBtn.setOnClickListener(this);
+        _signinBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                userSignIn();
+            }
+        });
+        _signupBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), SignUpActivity.class));
+            }
+        });
         _forgetPassBtn.setOnClickListener(this);
 
     }

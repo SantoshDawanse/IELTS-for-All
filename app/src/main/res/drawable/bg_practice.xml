@@ -9,4 +9,6 @@
         android:angle="45"
         android:startColor="@color/colorIELTS" />
 
+    <corners android:radius="8dp"/>
+
 </shape>
