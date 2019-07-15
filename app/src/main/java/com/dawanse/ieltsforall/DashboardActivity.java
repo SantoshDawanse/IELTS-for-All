@@ -97,7 +97,9 @@ public class DashboardActivity extends AppCompatActivity {
 
     private void readingIELTS() {
         //
-        startActivity(new Intent(getApplicationContext(), ReadingIELTS.class));
+        Intent speakingIntent = new Intent(getApplicationContext(), ReadingIELTS.class);
+        speakingIntent.putExtra("destination", "reading");
+        startActivity(speakingIntent);
     }
 
     private void writingIELTS() {
@@ -106,6 +108,9 @@ public class DashboardActivity extends AppCompatActivity {
 
     private void speakingIELTS() {
         //
+        Intent speakingIntent = new Intent(getApplicationContext(), ReadingIELTS.class);
+        speakingIntent.putExtra("destination", "speaking");
+        startActivity(speakingIntent);
     }
 
     private void listeningIELTS() {

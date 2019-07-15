@@ -7,8 +7,7 @@
     android:orientation="vertical"
     android:scrollbars="none">
 
-    <LinearLayout
-        xmlns:tools="http://schemas.android.com/tools"
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -20,15 +19,16 @@
             android:layout_height="wrap_content"
             android:background="@drawable/bg_login"
             android:padding="16dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Reading IELTS"
-                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
                 android:layout_marginStart="12dp"
+                android:text="Reading IELTS"
                 android:textColor="@color/colorWhite"
                 android:textSize="24sp"
-                android:layout_centerHorizontal="true"/>
+                android:textStyle="bold" />
         </RelativeLayout>
 
         <LinearLayout
@@ -37,84 +37,92 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:orientation="horizontal">
+
             <RelativeLayout
+                android:id="@+id/reading_task11"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="@drawable/bg_practice"                android:layout_margin="4dp"
-                android:padding="8dp"
-                android:gravity="center_horizontal">
+                android:background="@drawable/bg_practice"
+                android:gravity="center_horizontal"
+                android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/reading_task11"
+                    android:id="@+id/reading_task11_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Task"
                     android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:layout_below="@+id/reading_task11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/reading_task11_tv"
                     android:text="1.1"
                     android:textColor="@color/colorWhite"
-                    android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
+
             <RelativeLayout
+                android:id="@+id/reading_task12"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="@drawable/bg_practice"                android:layout_margin="4dp"
-                android:padding="8dp"
-                android:gravity="center_horizontal">
+                android:background="@drawable/bg_practice"
+                android:gravity="center_horizontal"
+                android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/reading_task12"
+                    android:id="@+id/reading_task12_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Task"
                     android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:layout_below="@+id/reading_task12"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/reading_task12_tv"
                     android:text="1.2"
                     android:textColor="@color/colorWhite"
-                    android:textStyle="bold"
-                    android:textSize="24sp"/>
-
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
 
             </RelativeLayout>
+
             <RelativeLayout
+                android:id="@+id/reading_task13"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="@drawable/bg_practice"                android:layout_margin="4dp"
-                android:padding="8dp"
-                android:gravity="center_horizontal">
+                android:background="@drawable/bg_practice"
+                android:gravity="center_horizontal"
+                android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/reading_task13"
+                    android:id="@+id/reading_task13_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Task"
                     android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:layout_below="@+id/reading_task13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/reading_task13_tv"
                     android:text="1.3"
                     android:textColor="@color/colorWhite"
-                    android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
         </LinearLayout>
@@ -125,84 +133,92 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:orientation="horizontal">
+
             <RelativeLayout
+                android:id="@+id/reading_task21"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="@drawable/bg_practice"                android:layout_margin="4dp"
-                android:padding="8dp"
-                android:gravity="center_horizontal">
+                android:background="@drawable/bg_practice"
+                android:gravity="center_horizontal"
+                android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/reading_task21"
+                    android:id="@+id/reading_task21_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Task"
                     android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:layout_below="@+id/reading_task21"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/reading_task21_tv"
                     android:text="2.1"
                     android:textColor="@color/colorWhite"
-                    android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
+
             <RelativeLayout
+                android:id="@+id/reading_task22"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="@drawable/bg_practice"                android:layout_margin="4dp"
-                android:padding="8dp"
-                android:gravity="center_horizontal">
+                android:background="@drawable/bg_practice"
+                android:gravity="center_horizontal"
+                android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/reading_task22"
+                    android:id="@+id/reading_task22_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Task"
                     android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:layout_below="@+id/reading_task22"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/reading_task22_tv"
                     android:text="2.2"
                     android:textColor="@color/colorWhite"
-                    android:textStyle="bold"
-                    android:textSize="24sp"/>
-
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
 
             </RelativeLayout>
+
             <RelativeLayout
+                android:id="@+id/reading_task23"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="@drawable/bg_practice"                android:layout_margin="4dp"
-                android:padding="8dp"
-                android:gravity="center_horizontal">
+                android:background="@drawable/bg_practice"
+                android:gravity="center_horizontal"
+                android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/reading_task23"
+                    android:id="@+id/reading_task23_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Task"
                     android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:layout_below="@+id/reading_task23"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/reading_task23_tv"
                     android:text="2.3"
                     android:textColor="@color/colorWhite"
-                    android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
         </LinearLayout>
@@ -213,84 +229,92 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:orientation="horizontal">
+
             <RelativeLayout
+                android:id="@+id/reading_task31"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="@drawable/bg_practice"                android:layout_margin="4dp"
-                android:padding="8dp"
-                android:gravity="center_horizontal">
+                android:background="@drawable/bg_practice"
+                android:gravity="center_horizontal"
+                android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/reading_task31"
+                    android:id="@+id/reading_task31_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Task"
                     android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:layout_below="@+id/reading_task31"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/reading_task31_tv"
                     android:text="3.1"
                     android:textColor="@color/colorWhite"
-                    android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
+
             <RelativeLayout
+                android:id="@+id/reading_task32"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="@drawable/bg_practice"                android:layout_margin="4dp"
-                android:padding="8dp"
-                android:gravity="center_horizontal">
+                android:background="@drawable/bg_practice"
+                android:gravity="center_horizontal"
+                android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/reading_task32"
+                    android:id="@+id/reading_task32_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Task"
                     android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:layout_below="@+id/reading_task32"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/reading_task32_tv"
                     android:text="3.2"
                     android:textColor="@color/colorWhite"
-                    android:textStyle="bold"
-                    android:textSize="24sp"/>
-
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
 
             </RelativeLayout>
+
             <RelativeLayout
+                android:id="@+id/reading_task33"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="@drawable/bg_practice"                android:layout_margin="4dp"
-                android:padding="8dp"
-                android:gravity="center_horizontal">
+                android:background="@drawable/bg_practice"
+                android:gravity="center_horizontal"
+                android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/reading_task33"
+                    android:id="@+id/reading_task33_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Task"
                     android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:layout_below="@+id/reading_task33"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/reading_task33_tv"
                     android:text="3.3"
                     android:textColor="@color/colorWhite"
-                    android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
         </LinearLayout>
@@ -301,84 +325,92 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:orientation="horizontal">
+
             <RelativeLayout
+                android:id="@+id/reading_task41"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="@drawable/bg_practice"                android:layout_margin="4dp"
-                android:padding="8dp"
-                android:gravity="center_horizontal">
+                android:background="@drawable/bg_practice"
+                android:gravity="center_horizontal"
+                android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/reading_task41"
+                    android:id="@+id/reading_task41_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Task"
                     android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:layout_below="@+id/reading_task41"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/reading_task41_tv"
                     android:text="4.1"
                     android:textColor="@color/colorWhite"
-                    android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
+
             <RelativeLayout
+                android:id="@+id/reading_task42"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="@drawable/bg_practice"                android:layout_margin="4dp"
-                android:padding="8dp"
-                android:gravity="center_horizontal">
+                android:background="@drawable/bg_practice"
+                android:gravity="center_horizontal"
+                android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/reading_task42"
+                    android:id="@+id/reading_task42_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Task"
                     android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:layout_below="@+id/reading_task42"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/reading_task42_tv"
                     android:text="4.2"
                     android:textColor="@color/colorWhite"
-                    android:textStyle="bold"
-                    android:textSize="24sp"/>
-
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
 
             </RelativeLayout>
+
             <RelativeLayout
+                android:id="@+id/reading_task43"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="@drawable/bg_practice"                android:layout_margin="4dp"
-                android:padding="8dp"
-                android:gravity="center_horizontal">
+                android:background="@drawable/bg_practice"
+                android:gravity="center_horizontal"
+                android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/reading_task43"
+                    android:id="@+id/reading_task43_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Task"
                     android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:layout_below="@+id/reading_task43"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/reading_task43_tv"
                     android:text="4.3"
                     android:textColor="@color/colorWhite"
-                    android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
         </LinearLayout>
@@ -389,84 +421,92 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:orientation="horizontal">
+
             <RelativeLayout
+                android:id="@+id/reading_task51"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="@drawable/bg_practice"                android:layout_margin="4dp"
-                android:padding="8dp"
-                android:gravity="center_horizontal">
+                android:background="@drawable/bg_practice"
+                android:gravity="center_horizontal"
+                android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/reading_task51"
+                    android:id="@+id/reading_task51_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Task"
                     android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:layout_below="@+id/reading_task51"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/reading_task51_tv"
                     android:text="5.1"
                     android:textColor="@color/colorWhite"
-                    android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
+
             <RelativeLayout
+                android:id="@+id/reading_task52"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="@drawable/bg_practice"                android:layout_margin="4dp"
-                android:padding="8dp"
-                android:gravity="center_horizontal">
+                android:background="@drawable/bg_practice"
+                android:gravity="center_horizontal"
+                android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/reading_task52"
+                    android:id="@+id/reading_task52_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Task"
                     android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:layout_below="@+id/reading_task52"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/reading_task52_tv"
                     android:text="5.2"
                     android:textColor="@color/colorWhite"
-                    android:textStyle="bold"
-                    android:textSize="24sp"/>
-
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
 
             </RelativeLayout>
+
             <RelativeLayout
+                android:id="@+id/reading_task53"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="@drawable/bg_practice"                android:layout_margin="4dp"
-                android:padding="8dp"
-                android:gravity="center_horizontal">
+                android:background="@drawable/bg_practice"
+                android:gravity="center_horizontal"
+                android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/reading_task53"
+                    android:id="@+id/reading_task53_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Task"
                     android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:layout_below="@+id/reading_task53"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/reading_task53_tv"
                     android:text="5.3"
                     android:textColor="@color/colorWhite"
-                    android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
         </LinearLayout>
@@ -477,85 +517,92 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:orientation="horizontal">
+
             <RelativeLayout
+                android:id="@+id/reading_task61"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@drawable/bg_practice"                android:layout_margin="4dp"
-                android:padding="8dp"
-                android:gravity="center_horizontal">
-
-                <TextView
-                    android:id="@+id/reading_task61"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Task"
-                    android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
-
-                <TextView
-                    android:layout_below="@+id/reading_task61"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="6.1"
-                    android:textColor="@color/colorWhite"
-                    android:textStyle="bold"
-                    android:textSize="24sp"/>
-
-            </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@drawable/bg_practice"                android:layout_margin="4dp"
-                android:padding="8dp"
-                android:gravity="center_horizontal">
-
-                <TextView
-                    android:id="@+id/reading_task62"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Task"
-                    android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
-
-                <TextView
-                    android:layout_below="@+id/reading_task62"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="6.2"
-                    android:textColor="@color/colorWhite"
-                    android:textStyle="bold"
-                    android:textSize="24sp"/>
-
-
-
-            </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:background="@drawable/bg_practice"
-                android:layout_margin="4dp"
-                android:padding="8dp"
-                android:gravity="center_horizontal">
+                android:gravity="center_horizontal"
+                android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/reading_task63"
+                    android:id="@+id/reading_task61_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Task"
                     android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:layout_below="@+id/reading_task63"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/reading_task61_tv"
+                    android:text="6.1"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/reading_task62"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_practice"
+                android:gravity="center_horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/reading_task62_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Task"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/reading_task62_tv"
+                    android:text="6.2"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/reading_task63"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_practice"
+                android:gravity="center_horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/reading_task63_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Task"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/reading_task63_tv"
                     android:text="6.3"
                     android:textColor="@color/colorWhite"
-                    android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
         </LinearLayout>

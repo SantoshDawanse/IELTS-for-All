@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ReadingTask"></activity>
+        <activity android:name=".SevenDayActivity"></activity>
+        <activity android:name=".ReadingTask" />
         <activity android:name=".ReadingIELTS" />
         <activity android:name=".DashboardActivity" />
         <activity android:name=".SigninActivity" />
